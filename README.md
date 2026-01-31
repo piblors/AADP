@@ -50,8 +50,8 @@ Você tem 2 opções: instalar manualmente ou com o arquivo de instalação auto
 > 0. Antes de tudo, clone e entre na pasta do projeto (recomendo clonar na pasta de documentos do seu computador, para fins de organização)
 >```bash
 > git clone https://github.com/piblors/AADP.git
-> cd deteccao-dados-pessoais # Comando para Linux/MacOS
-> dir deteccao-dados-pessoais # Comando para Windows
+> cd AADP # Comando para Linux/MacOS
+> dir AADP # Comando para Windows
 >```
 
 ### Opção 1: Instalação automática
