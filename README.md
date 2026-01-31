@@ -1,28 +1,12 @@
-# Instruções de instalação e dependências
- - Lista todos os pré-requisitos, como a versão da linguagem eprogramação (ex: Python 3.9+) e outros softwares necessários > 1
- - Inclui um arquivo de gerenciamento de pacotes (ex: requirements.txt para Python) que permite a instalação automatizada de todas as bibliotecas > 2
- - Apresenta os comandos exatos e sequenciais para criar e configurar o ambiente (ex: criação de ambiente virtual, instalação de dependências) > 1
+# Detecção de Dados Pessoais em Textos Públicos
 
-# 2. Instruções de Execução
- - Fornece o(s) comando(s) exato(s) para executar o modelo/script, incluindo exemplos de argumentos, se houver > 2
- - Descreve claramente o formato de dados esperado na entrada e o formato dos dados que serão gerados na saída > 1
-
-# 3. Clareza e Organização
- - Contém um arquivo principal de texto (ex: README.md) que descreve o objetivo da solução e a função de cada arquivo importante no projeto > 1
- - O código-fonte possui comentários em trechos complexos ou em funções chave, explicando a lógica implementada. > 1
- - A estrutura de arquivos do projeto é lógica e organizada (ex: separando dados, scripts, modelos, etc.) > 1
-
----
-
-# 🔍 Detecção de Dados Pessoais em Textos Públicos
-
-## 📌 Introdução
+## Introdução
 
 Com o fortalecimento da transparência pública e da participação social digital, surge também a necessidade de proteger adequadamente os dados pessoais dos cidadãos. No contexto do **Participa DF**, plataforma oficial de participação social do Governo do Distrito Federal, pedidos de acesso à informação podem conter informações sensíveis que, se divulgadas indevidamente, violam a **Lei Geral de Proteção de Dados (LGPD – Lei nº 13.709/2018)**
 
 Este projeto foi desenvolvido no âmbito do **1º Hackathon em Controle Social – Desafio Participa DF**, na categoria **Acesso à Informação**, e tem como objetivo **identificar automaticamente textos que contenham dados pessoais**, como nomes próprios, CPF, RG, telefones e endereços de e-mail. A solução auxilia na classificação automática de pedidos que deveriam ser tratados como **não públicos**, contribuindo para a proteção da privacidade do cidadão e para a eficiência dos serviços públicos
 
-## 🎯 Objetivo do Projeto
+## Objetivo do Projeto
 
 - Identificar automaticamente textos que contenham **dados pessoais**
 - Auxiliar na **classificação correta** de pedidos de acesso à informação
@@ -30,7 +14,7 @@ Este projeto foi desenvolvido no âmbito do **1º Hackathon em Controle Social �
 - Apoiar a conformidade com a **LGPD**
 - Facilitar a integração com fluxos de análise automatizada
 
-## 📁 Estrutura do Projeto
+## Estrutura do Projeto
 ```bash
 ├── data/
 │ ├── input_exemplo.txt # Exemplo de texto de entrada
